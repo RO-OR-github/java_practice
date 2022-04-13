@@ -1,0 +1,15 @@
+package week2_3;
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		String name = sc.next();
+		System.out.println("id를 입력하세요");
+		int pass = (sc.nextInt()*((int)(Math.random()*10)));
+		
+		
+		
+	}
+
+}

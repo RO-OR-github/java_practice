@@ -1,0 +1,15 @@
+package week2_3;
+import java.util.Scanner;
+
+public class Info {
+	private String id;
+	private int pass;
+	
+	public Info(String id, int pass) {
+		Scanner sc = new Scanner(System.in);
+		 this.id = sc.next();
+		 this.pass = sc.nextInt();
+		
+	}
+}
+

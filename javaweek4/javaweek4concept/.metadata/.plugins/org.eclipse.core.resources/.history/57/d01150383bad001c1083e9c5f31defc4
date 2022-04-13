@@ -1,0 +1,8 @@
+package java2conceptweek4_7;
+
+public class Program {
+	Circle cr = new Circle(15);
+	Rectangle re =new Rectangle(8,7);
+	
+
+}

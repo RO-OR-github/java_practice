@@ -1,0 +1,20 @@
+package javaweek5_5;
+
+public abstract class Animal {
+	public String name;
+	
+	public Animal() {
+		this("Anonymous")
+	}
+
+	public Animal(String name) {
+		this.name = name;
+		
+	}
+	
+	abstract String reaction(Animal ani);
+	
+	abstract String sound();
+
+	
+}

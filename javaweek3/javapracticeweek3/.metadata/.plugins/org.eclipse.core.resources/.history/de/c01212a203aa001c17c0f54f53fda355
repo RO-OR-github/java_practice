@@ -1,0 +1,16 @@
+package javaweek3practice_2;
+
+import java.util.Scanner;
+
+public class DogTest {
+	public static void main(String[] args) {
+		Dog[] md =new Dog[5];
+		
+		md[0] = new Dog();
+		md[1] = new Dog();
+		md[2] = new Dog();
+		md[3] = new Dog();
+		md[4] = new Dog();
+	}
+
+}

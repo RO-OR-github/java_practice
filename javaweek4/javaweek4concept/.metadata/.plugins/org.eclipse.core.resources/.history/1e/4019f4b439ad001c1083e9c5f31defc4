@@ -1,0 +1,9 @@
+package java2conceptweek4_7;
+
+public abstract class Shape {
+	double do1,do2;
+	
+	public abstract double area();
+	public abstract void writer();
+
+}

@@ -1,0 +1,10 @@
+package javaweek6practice;
+
+public class OracleDB implements DataAccessObject {
+	//±¸Çö
+	void select();
+	void insert();
+	void update();
+	void delete();
+
+}

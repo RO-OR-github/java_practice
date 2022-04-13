@@ -1,0 +1,11 @@
+package javaweek6practice_5;
+
+public class Test {
+	public static void main(String[] args) {
+		Person[] prr = new Person[6];
+		
+		prr[0]= new Person();
+		prr[1]= new Person("benny", 20); 
+		
+	}
+}

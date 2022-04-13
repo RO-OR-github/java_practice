@@ -1,0 +1,13 @@
+package javaweek5_4;
+
+abstract class Fruit {
+	public Fruit() {}
+	
+	abstract public String me();
+
+	@Override
+	public String toString() {
+		return "Fruit [me()=" + me() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
+}

@@ -1,0 +1,12 @@
+package javaweek5_4;
+
+public class Test {
+	public static void main(String[] args) {
+		Fruit [] fary = new Fruit [4];
+		
+		fary[1] = new Apple();
+		fary[2] = new Grape();
+		fary[3] = new Pear();
+	}
+
+}

@@ -1,0 +1,18 @@
+package week2concept;
+
+class Rectangle {
+	private double wh,hh,ar;
+	public Rectangle(double wh, double hh) {
+		this.wh = wh;
+		this.hh = hh;
+		
+	}
+	double area(double ar) {
+		ar = wh*hh;
+		return ar;
+	}
+
+}
+public class static void main(String[] args) {
+	
+}

@@ -1,0 +1,28 @@
+package javaweek3practice_2;
+
+import java.util.Scanner;
+
+public class DogTest {
+	public static void main(String[] args) {
+		String dcolor;
+		Scanner sc = new Scanner(System.in);
+		dcolor = sc.nextLine();
+		
+		Dog[] md =new Dog[5];
+		
+		md[0] = new Dog("Red");
+		md[1] = new Dog("Orange");
+		md[2] = new Dog("Yellow");
+		md[3] = new Dog("Green");
+		md[4] = new Dog("Blue");
+		
+		switch (dcolor) {
+		    case "Red": md[0].
+		    case "Orange":
+		    case "Yellow":
+		    case "Green":
+		    case "Blue":
+		}
+	}
+
+}

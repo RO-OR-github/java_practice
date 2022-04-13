@@ -1,0 +1,25 @@
+package javaweek3practice;
+
+public class Student {
+	private String name;
+	private double score;
+	private char grade;
+	public Student() {
+		this("anonymous", 0,0);
+	}
+	//필드에 대입하는 값은 다르지만 같은 생성자들이 여러번 생성되었을때
+	//오버로딩된 생성자호출을 해준다.
+    public Student(String name, double score) {
+		this.name = name;
+		this.score = score;
+
+	}
+
+	//float는 형변환을 해주어야 하기때문에 주로 double을 사용
+	@Override //우클릭 source에서 이미만들어진 메소드 사용
+	public String toString() {
+		return "Student [name=" + name + ", score=" + score + ", grade=" + grade + "]";
+	}
+	
+	
+}

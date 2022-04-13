@@ -1,0 +1,16 @@
+package javaweek6practice;
+
+public class OracleDB implements DataAccessObject {
+	//구현작업 구체화작업(재정의
+	void select() {
+		
+	}
+	void insert() {
+		
+	}
+	void update() {
+		
+	}
+	void delete() {
+
+}

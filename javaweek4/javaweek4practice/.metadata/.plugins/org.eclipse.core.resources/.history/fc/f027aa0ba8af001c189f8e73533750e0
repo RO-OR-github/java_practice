@@ -1,0 +1,9 @@
+package javaprojectweek4_3;
+
+public class Melon_Test {
+	public static void main(String[] args) {
+		Melon m1 = new Melon()
+		
+	}
+
+}

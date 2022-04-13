@@ -1,0 +1,6 @@
+package javaweek6practice_4;
+
+public class Person implements {
+	private String name;
+	private int height;
+}

@@ -1,0 +1,13 @@
+package javaweek6practice_3;
+
+public class ShapeTest {
+	public static void main(String[] args) {
+		IGraphics re1 = new Rectangle();
+		IGraphics re2 = new Rectangle();
+		IGraphics cr1 = new Circle(12.3);
+		
+		re1.draw();
+		System.out.println(re1);
+		re1.perimeter();
+	}
+}

@@ -1,0 +1,25 @@
+package javaweek3practice_2;
+
+public class Dog {
+	private int age, food, total;
+	private String color;
+
+
+	public Dog(int age, int food, int total, String color) {
+		super();
+		this.age = age;
+		this.total = total;
+		this.color = color;
+		this.food = food;
+	}
+
+
+	public String barking(int food) {
+		food = food-1;
+		
+		return "¸Û¸Û";
+		
+	}
+	
+	
+}

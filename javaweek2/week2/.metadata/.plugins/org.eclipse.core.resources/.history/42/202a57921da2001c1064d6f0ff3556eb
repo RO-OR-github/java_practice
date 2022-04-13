@@ -1,0 +1,9 @@
+package week2concept_2;
+import java.util.Scanner;
+public class DateTest {
+	int dayt,montht,yeart;
+	Date dt = new Date(dayt,yeart,montht);
+	dt.print1();
+
+
+}

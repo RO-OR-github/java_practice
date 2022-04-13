@@ -1,0 +1,18 @@
+package javaweek5_5;
+
+public abstract class Animal {
+	public String catname, dogname;
+	
+	public Animal() {}
+
+	public Animal(String catname, String dogname) {
+		this.catname = catname;
+		this.dogname = dogname;
+	}
+	
+	abstract String reaction(Animal ani);
+	
+	abstract String sound();
+
+	
+}

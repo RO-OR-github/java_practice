@@ -1,0 +1,29 @@
+package javaweek6practice_4;
+
+public class PersonTest {
+	public static Person getMaximum(Person[] arr) {
+		double[] max =new int[arr.length];
+		for(int k =0; k<arr.length; k++) {
+			max[i] = arr[i].getHeight();
+		}
+		for(int i =0; i<arr.length-1; i++ ) {
+			while(arr[i].compareo(arr[i+1])==1) {
+			}
+				
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		Person[] arr = new Person[3];
+		
+		arr[0]=new Person("Benny",180.0);
+		arr[1]=new Person("Daniel",178.0);
+		arr[2]=new Person("joon",188.0);
+		
+		System.out.println(arr[0].compareo(arr));
+		
+										
+	}
+}

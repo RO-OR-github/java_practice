@@ -1,0 +1,14 @@
+package javaweek6practice_2;
+
+public class Answer2 {
+	public static void remote(RemoteControl re) {
+		int a;
+		re.turnOn();
+		re.turnOff();
+		re.setVolume(a);
+	}
+	public static void main(String[] args) {
+	}
+
+
+}

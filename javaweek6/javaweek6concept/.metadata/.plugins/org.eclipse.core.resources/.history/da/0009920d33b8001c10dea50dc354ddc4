@@ -1,0 +1,6 @@
+package javaconceptweek6;
+
+public interface Conce {
+	abstract public int getArea();
+
+}

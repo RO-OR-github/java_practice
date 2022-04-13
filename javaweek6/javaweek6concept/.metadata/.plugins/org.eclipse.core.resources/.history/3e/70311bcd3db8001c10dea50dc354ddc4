@@ -1,0 +1,6 @@
+package javaconceptweek6;
+
+public class IControllTest implements IControll {
+
+	
+}

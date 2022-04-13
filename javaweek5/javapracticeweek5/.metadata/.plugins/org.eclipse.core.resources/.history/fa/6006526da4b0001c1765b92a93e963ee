@@ -1,0 +1,7 @@
+package javaweek5_4;
+
+abstract class Fruit {
+	public Fruit() {}
+	
+	abstract public String me();
+}

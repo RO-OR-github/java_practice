@@ -1,0 +1,14 @@
+package javaweek6practice_5;
+
+public class Person {
+	private String name,num;
+	private int age;
+	
+	public Person() {}
+	public Person(String name, String num, int age) {
+		this.name = name;
+		this.num = num;
+		this.age = age;
+	}
+	
+}

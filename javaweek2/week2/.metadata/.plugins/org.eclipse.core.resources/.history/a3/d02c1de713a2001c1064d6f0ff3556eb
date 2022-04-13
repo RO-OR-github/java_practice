@@ -1,0 +1,10 @@
+package week2concept;
+
+public class Test {
+	public static void main(String[] args) {
+		double high,weigh;
+		Rectangle rt = new Rectangle(high,weigh);
+	}
+	
+
+}

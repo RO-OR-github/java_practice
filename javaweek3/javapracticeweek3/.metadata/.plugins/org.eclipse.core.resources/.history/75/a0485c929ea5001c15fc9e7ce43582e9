@@ -1,0 +1,22 @@
+package javaweek3practice;
+
+//객체 배열 사용
+public class StudentTest {
+	public static void main(String[] args) {
+		Student[] std=new Student[3]; //참조 저장공간 3개생성 참조하는 객체x
+		std[0]=new Student();
+		std[1]=new Student();
+		std[2]=new Student(); //참조된 객체 저장
+		
+		
+//		System.out.println(Student.getcnt());//인스턴스가 아닌 정적멤버는 앞의 클래스이름을 붙여 호출
+		
+		for(Student s : std) //인덱스 사용않고 객체 원소 접근 가능
+			System.out.println(s.toString());
+		
+		
+		
+		
+	}
+
+}

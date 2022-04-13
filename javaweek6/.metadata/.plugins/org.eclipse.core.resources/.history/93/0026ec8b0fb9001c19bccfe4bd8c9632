@@ -1,0 +1,5 @@
+package javaweek6practice_5;
+
+public interface IPin {
+
+}

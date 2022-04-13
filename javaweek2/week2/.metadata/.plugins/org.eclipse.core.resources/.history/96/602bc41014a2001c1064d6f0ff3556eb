@@ -1,0 +1,16 @@
+package week2concept;
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		double high,weigh;
+		
+		Scanner sc = new Scanner(system.in);
+		
+		
+		
+		Rectangle rt = new Rectangle(high,weigh);
+	}
+	
+
+}

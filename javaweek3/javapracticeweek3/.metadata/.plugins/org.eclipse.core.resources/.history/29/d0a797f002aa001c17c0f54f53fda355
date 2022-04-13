@@ -1,0 +1,67 @@
+package javaweek3practice_2;
+
+public class Dog {
+	private int age, food, total;
+	private int cnt = 0;
+	private String color;
+    
+	public Dog(String color, int food) {
+		this.color = color;
+		this.food = food;
+		++cnt;
+		
+	}
+
+	public Dog(int age, int food, int total, String color) {
+		this.age = age;
+		this.total = total;
+		this.color = color;
+		this.food = food;
+		++cnt;
+	}
+
+
+	public String barking() {
+		if(food==0) {
+			return "矫公疯";
+		}else {
+			--food;
+			return "港港";
+		}
+	}
+	
+	public boolean hungry() {
+		if(food<=1) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	public boolean sleeping(int df) {
+		if(df>0) {
+			food += df;
+			return false;
+			
+		}else if(df==0) {
+			return true;
+			
+		}else{
+			System.out.println("0俺 捞惑父 林技夸");
+			return true;
+		}
+		
+	}
+	
+	@Override
+	public String toString() {
+		// TODO 磊悼 积己等 皋家靛 胶庞
+		return super.toString();
+	}
+	
+	public void getTotal() {
+		System.out.println(cnt);
+	}
+	
+	
+}

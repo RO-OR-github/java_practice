@@ -1,0 +1,11 @@
+package javaweek6practice_4;
+
+public class PersonTest {
+	public static Person getMaximum(Person[] arr) {
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,15 @@
+package week2concept;
+
+public class Rectangle {
+	private double wh,hh,ar;
+	public Rectangle(double wh, double hh) {
+		this.wh = wh;
+		this.hh = hh;
+		
+	}
+	double area() {
+		ar = wh*hh;
+		return ar;
+	}
+
+}

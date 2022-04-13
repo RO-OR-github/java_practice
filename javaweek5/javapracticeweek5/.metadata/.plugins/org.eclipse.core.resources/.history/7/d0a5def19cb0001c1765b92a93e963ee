@@ -1,0 +1,12 @@
+package javaweek5_2;
+
+public class SmartPhone extends Phone {
+	private int memory;
+	private boolean hasBluetooth;
+	public SmartPhone(String maker, String type, int price, int memory, boolean hasBluetooth) {
+		super(maker, type, price);
+		this.memory = memory;
+		this.hasBluetooth = hasBluetooth;
+	}
+	
+}

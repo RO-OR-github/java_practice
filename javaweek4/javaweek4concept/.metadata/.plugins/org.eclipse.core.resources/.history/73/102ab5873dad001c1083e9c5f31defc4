@@ -1,0 +1,15 @@
+package java2conceptweek4_8;
+
+public class Account {
+	private String name, money, ccount;
+
+	public Account(String name, String money, String ccount) {
+		this.name = name;
+		this.money = money;
+		this.ccount = ccount;
+	}
+	
+	
+	
+
+}

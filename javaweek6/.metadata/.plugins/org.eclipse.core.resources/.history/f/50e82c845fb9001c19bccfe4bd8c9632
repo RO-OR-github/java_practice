@@ -1,0 +1,12 @@
+package javaweek6practice_5;
+
+public class Student extends Person implements IJob,IPin {
+	private int enter, pay;
+	
+	public Student (String name, int age, int enter, int h) {
+		super(name,age);
+		this.enter = enter;
+		num = enter + getPin();
+		pay = getPay(h);
+	}
+}

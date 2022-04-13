@@ -1,0 +1,15 @@
+package java2conceptweek4_7;
+
+public class Circle extends Shape {
+	static final double PI = 3.14;
+	double r;
+	
+	public Circle(double r) {
+		this.r=r;
+	}
+	
+	public double area(double r) {
+		return r*r*PI;
+	}
+
+}

@@ -1,0 +1,6 @@
+package javaconceptweek6;
+
+public class Child extends Practice {
+	Prctice pr = new pr();
+
+}

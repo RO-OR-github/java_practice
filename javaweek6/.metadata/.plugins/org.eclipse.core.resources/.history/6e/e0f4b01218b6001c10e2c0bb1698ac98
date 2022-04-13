@@ -1,0 +1,17 @@
+package javaweek6practice;
+
+public class OracleDB implements DataAccessObject {
+	//구현작업 구체화작업(재정의), 인터페이스는 컴파일러가 자동으로 public 접근제어자를 붙임
+	//그래서 재정의 할때 더높은 단계인 default는 오류가남
+	public select() {
+		
+	}
+	public insert() {
+		
+	}
+	public update() {
+		
+	}
+	public delete() {
+
+}

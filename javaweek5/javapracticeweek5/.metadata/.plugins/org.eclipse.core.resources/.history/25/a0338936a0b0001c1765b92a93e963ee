@@ -1,0 +1,5 @@
+package javaweek5_3;
+
+abstract public class Shape {
+
+}

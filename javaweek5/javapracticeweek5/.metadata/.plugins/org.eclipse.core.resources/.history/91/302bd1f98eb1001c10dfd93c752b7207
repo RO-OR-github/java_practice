@@ -1,0 +1,17 @@
+package javaweek5_5;
+
+public class Cat extends Animal {
+	
+	public Cat() {}
+	public Cat(String catname) {
+		super(catname);
+	}
+	
+	public String reaction(Animal cat) {
+		return "碍酒瘤_部府 郴府绊";
+	}
+	
+	public String sound() {
+		return "港港";
+	}
+}

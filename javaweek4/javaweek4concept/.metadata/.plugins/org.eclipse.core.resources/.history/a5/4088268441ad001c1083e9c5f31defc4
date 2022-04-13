@@ -1,0 +1,16 @@
+package java2conceptweek4_8;
+
+public class Bank {
+	public static void main(String[] args) {
+		
+		CheckingAccount ba = new CheckingAccount("ȫ�浿",100000,"55-66-77-88","55-66-77-88");
+		
+		ba.toString();
+		ba.add(100000);
+		ba.pay(40000);
+		
+	}
+	
+	
+	
+}

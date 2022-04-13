@@ -1,0 +1,6 @@
+package javaweek5_2;
+
+public class SmartPhone {
+	private int memory;
+	private boolean hasBluetooth;
+}

@@ -1,0 +1,9 @@
+package javaconceptweek6;
+
+public class Practice implements Conce {
+	Practice pr = new Practice();
+	Conce co = pr;
+	
+	Practice bs = (Practice) co;
+	
+}

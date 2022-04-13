@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+F:\MBL\study\university\workspace\javaproject\javaweek6\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2826044666.index
+2568718737.index

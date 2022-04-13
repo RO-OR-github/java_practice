@@ -1,0 +1,17 @@
+package javaprojectweek4_4;
+
+public class Person {
+	private String name;
+	private int num, year;
+	
+	public Person(String name, int num) {
+		super();
+		this.name = name;
+		this.num = num;
+	}
+	
+	public int computeSalary(int a, int b) {
+		return a*b;
+	}
+
+}

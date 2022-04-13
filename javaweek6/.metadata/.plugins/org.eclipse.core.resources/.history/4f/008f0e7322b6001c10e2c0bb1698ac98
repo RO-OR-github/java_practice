@@ -1,0 +1,10 @@
+package javaweek6practice_3;
+
+public class Rectangle implements IGraphics {
+	public double perimeter() {
+		
+	}
+	public void draw() {
+		System.out.println("");
+	}
+}

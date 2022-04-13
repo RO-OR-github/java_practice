@@ -1,0 +1,19 @@
+package javaprojectweek4_4;
+
+public class SalariedEmployee extends Person {
+	private int month;
+
+	public SalariedEmployee(String name, int num, int month) {
+		super(name,num);
+		this.month = month;
+	}
+
+	@Override
+	public int computeSalary() {
+		int year = month*12;
+		return year;
+	}
+	
+
+
+}

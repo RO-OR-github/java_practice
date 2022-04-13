@@ -1,0 +1,40 @@
+package javaprojectweek4_4;
+
+public class Person {
+	private String name;
+	private int num;
+	
+	public Person(String name, int num) {
+		super();
+		this.name = name;
+		this.num = num;
+	}
+	
+	public int computeSalary() {
+		int a=12;
+		int b=123123;
+		return a*b;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getNum() {
+		return num;
+	}
+
+	public void setNum(int num) {
+		this.num = num;
+	}
+
+	@Override
+	public String toString() {
+		return "이름 : "+name+", 사번 : "+num;
+	}
+
+}

@@ -1,0 +1,32 @@
+package week2concept_2;
+import java.util.Scanner;
+
+public class DateTest {
+	public static void main(String[] args) {
+	    int dayt,montht,yeart;
+	    boolean i;
+	    Scanner sc = new Scanner(System.in);
+	    
+	    System.out.print("일을 입력하세요 : ");
+	    dayt=sc.nextInt();
+	    while(i=true)
+	        if(1<=dayt&&dayt<=31) {
+	        	i=true;
+	        	break;
+	        }else {
+	    	    System.out.println("올바르게 입력하세요 : ");
+	    	    dayt=sc.nextInt();
+	    	    i=false;
+	        }
+	    System.out.print("월을 입력하세요 : ");
+	    montht=sc.nextInt();
+	    System.out.print("년을 입력하세요 : ");
+	    yeart=sc.nextInt();
+	    
+	    Date dt = new Date(dayt,yeart,montht);
+	    dt.print1();
+	    dt.print2();
+	    
+	}
+
+}

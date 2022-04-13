@@ -1,0 +1,15 @@
+package javaweek5_4;
+
+public class Pear extends Fruit {
+	public Pear() {}
+	
+	public String me() {
+		return "³ª´Â ¹è";
+	}
+	
+	public String toString() {
+		return me();
+	}
+
+
+}

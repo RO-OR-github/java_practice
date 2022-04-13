@@ -1,0 +1,9 @@
+package javaweek6practice_2;
+
+public class Answer2 {
+	public static void main(String[] args) {
+		RemoteControl tv = new TV();
+		RemoteControl sm = new SmartPhone();
+		
+	}
+}

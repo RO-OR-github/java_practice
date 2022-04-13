@@ -1,0 +1,17 @@
+package week2_4;
+
+import java.util.Scanner;
+
+public class ActiveCellPhone {
+	public static void main(String[] args) {
+		boolean powerswitch = true;
+		String pnum;
+		
+		Scanner sc = new Scanner(System.in);
+		pnum=sc.next();
+		
+		CellPhone cp = new CellPhone(pnum,powerswitch);
+	}
+
+}
+

@@ -1,0 +1,13 @@
+package week2; //이름을 만들때 java단어 하나로만 만들지 말것, 이것이 없거나 이름을 바꾸면 실행하는데 문제가 생김
+// 한소스 안에 두가지 클래스가 있다면 pubㅣic을 main에 붙여 줘야 한다.
+
+public class Shoes {
+	private int size, cnt;  //필드에대한건 90프로 이상 정보은닉 수정은 하나의 통로로만 가능하게 private
+	String type;
+	public Shoes(int size, int cnt, String type) { //생성자는 클래스이름과 같아야함
+	//자료형과 더불어 변수도
+		
+	}
+	
+
+}

@@ -1,0 +1,19 @@
+package javaweek3practice_2;
+
+import java.util.Scanner;
+
+public class DogTest {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Dog[] md =new Dog[5];
+		
+		md[0] = new Dog("Red", 0);
+		md[1] = new Dog("Orange", 0);
+		md[2] = new Dog("Yellow", 0);
+		md[3] = new Dog("Green", 0);
+		md[4] = new Dog("Blue", 0);
+	}
+
+}

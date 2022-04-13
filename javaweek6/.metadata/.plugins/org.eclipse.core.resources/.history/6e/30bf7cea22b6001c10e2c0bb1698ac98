@@ -1,0 +1,13 @@
+package javaweek6practice_3;
+
+public class Rectangle implements IGraphics {
+	private double lengthA,lengthB;
+	
+	public double perimeter() {
+		double al = lengthA + lengthB;
+		return al;
+	}
+	public void draw() {
+		System.out.println("을 그립니다.");
+	}
+}

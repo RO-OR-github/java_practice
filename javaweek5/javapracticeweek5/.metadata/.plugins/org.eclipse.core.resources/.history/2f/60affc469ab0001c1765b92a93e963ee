@@ -1,0 +1,14 @@
+package javaweek5_1;
+
+public class Answer_01 {
+	public static void play(Animal ani) {
+		// 본인 작성
+	}
+
+	public static void main(String[] args) {
+		Animal animal = new Baby("신생아");
+		play(animal);
+		animal = new Dog("강아지");
+		play(animal);
+	}
+}

@@ -1,0 +1,13 @@
+package javaweek5_2;
+
+public class Phone {
+	private String maker, type;
+	private int price;
+	
+	public Phone(String maker, String type, int price) {
+		this.maker = maker;
+		this.type = type;
+		this.price = price;
+	}
+
+}

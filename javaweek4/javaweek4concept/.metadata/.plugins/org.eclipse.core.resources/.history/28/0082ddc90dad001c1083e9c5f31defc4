@@ -1,0 +1,18 @@
+package java2conceptweek4_2;
+
+public class Bike {
+	private int gear;
+	public int speed;
+}
+	
+public class MountainBike expands Bike {
+	public int seatHeight;
+
+	public void MountainBike(int g) {
+		super();
+		
+		gear=g;
+	}
+
+
+}

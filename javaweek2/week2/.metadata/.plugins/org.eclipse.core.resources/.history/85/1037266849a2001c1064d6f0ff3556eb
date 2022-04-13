@@ -1,0 +1,17 @@
+package week2concept_4;
+
+public class Practice {
+	public int ivalue;
+	public float fvalue;
+	
+	public Practice(int ivalue, float fvalue) {
+		this.ivalue=ivalue;
+		this.fvalue=fvalue;
+		System.out.printf("%d,%f\n",ivalue,fvalue);
+		
+	}
+	void print1() {
+		Practice pc = new Practice((int)10,(float)1.2345);
+		System.out.printf("%d,%f\n",ivalue,fvalue);		
+	}
+

@@ -1,0 +1,17 @@
+package week2_3;
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		
+		System.out.println("id를 입력하세요");
+		String name = sc.next();
+		System.out.println("비밀번호를 입력하세요");
+		int pw = (sc.nextInt()*((int)(Math.random()*10)));
+		System.out.println(pw);	
+		
+		
+	}
+
+}

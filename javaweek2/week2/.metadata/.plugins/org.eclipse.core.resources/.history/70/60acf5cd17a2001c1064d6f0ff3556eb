@@ -1,0 +1,20 @@
+package week2concept;
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		double high,weigh;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("높이를 입력하세요 : ");
+		high = sc.nextInt();
+		
+		System.out.print("높이를 입력하세요 : ");
+		weigh = sc.nextInt();
+		
+		Rectangle rt = new Rectangle(high,weigh);
+		System.out.println(rt.area());
+	}
+	
+
+}

@@ -1,0 +1,7 @@
+package java2conceptweek4_8;
+
+public class Account {
+	private String name, money, ccount;
+	
+
+}

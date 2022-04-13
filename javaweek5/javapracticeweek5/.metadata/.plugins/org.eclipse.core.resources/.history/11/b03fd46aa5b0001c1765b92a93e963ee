@@ -1,0 +1,11 @@
+package javaweek5_4;
+
+public class Test {
+	public static void main(String[] args) {
+		Fruit [] fary = new Fruit [4];
+		for(Fruit obj : fary)
+			System.out.println(obj);
+			
+	}
+
+}

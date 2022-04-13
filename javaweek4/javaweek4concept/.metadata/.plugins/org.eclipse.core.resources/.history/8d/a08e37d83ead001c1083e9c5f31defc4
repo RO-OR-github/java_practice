@@ -1,0 +1,12 @@
+package java2conceptweek4_8;
+
+public class CheckingAccount extends Account {
+	private String card;
+
+	public CheckingAccount(String name, int money, String ccount) {
+		super(name, money, ccount);
+
+	}
+	
+
+}

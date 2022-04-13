@@ -1,0 +1,11 @@
+package java2conceptweek4_7;
+
+public abstract class Crab {
+	double area;
+	public abstract Crab() {
+		
+	}
+	
+	public abstract void writer();
+
+}
