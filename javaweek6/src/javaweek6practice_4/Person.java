@@ -13,9 +13,9 @@ public class Person implements IComparable {
 
 	public int compareo(Object other) {
 
-		if(height>((Person) other).getHeight())
+		if(getHeight()>((Person) other).getHeight())
 			return 1;
-		else if(height==((Person) other).getHeight())
+		else if(getHeight()==((Person) other).getHeight())
 			return 0;
 		else
 			return -1;
